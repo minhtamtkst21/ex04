@@ -10,8 +10,15 @@ namespace minhtam
         {
             Console.WriteLine(IsOdd(3));
             Console.WriteLine(IsEven(4));
-
+            Console.WriteLine(IsPrime(5));
+            Console.WriteLine(Square(3));
+            Console.WriteLine(Cube(3));
+            Console.WriteLine(Pow(2, 3));
+            Console.WriteLine(Abs(-9));
             Console.WriteLine(Ceil(3.5));
+            Console.WriteLine(Rand1());
+            Console.WriteLine(Rand2());
+            Console.WriteLine(Factorial(3));
         }
         public static bool IsOdd(int n)
         {
@@ -64,6 +71,25 @@ namespace minhtam
         {
             int n = (int)x + 1;
             return n;
+        }
+        public static int Rand1()
+        {
+            Random rand = new Random();
+            int n = rand.Next();
+            return n;
+        }
+        public static double Rand2()
+        {
+            Random rand = new Random();
+            double n = rand.NextDouble();
+            return n;
+        }
+        public static long Factorial(long n)
+        {
+            int ketqua=1;
+            for (int i = 2; i <= n; i++)
+                ketqua = ketqua * i;
+            return ketqua;
         }
     }
 }

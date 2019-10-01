@@ -82,5 +82,13 @@ namespace UnitTestProject1
             double result4 = Program.Floor(4.1);
             Assert.AreEqual(4, result4);
         }
+        public void TestFactorial()
+        {
+            long result3 = Program.Factorial(3);
+            Assert.AreEqual(6, result3);
+
+            long result4 = Program.Factorial(4);
+            Assert.AreEqual(24, result4);
+        }
     }
 }
