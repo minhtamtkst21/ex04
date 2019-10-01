@@ -19,10 +19,10 @@ namespace UnitTestProject1
         }
         public void TestIsEven()
         {
-            bool result3 = Program.IsOdd(3);
+            bool result3 = Program.IsEven(3);
             Assert.AreEqual(false, result3);
 
-            bool result4 = Program.IsOdd(4);
+            bool result4 = Program.IsEven(4);
             Assert.AreEqual(true, result4);
 
         }
@@ -52,10 +52,10 @@ namespace UnitTestProject1
         }
         public void TestPow()
         {
-            int result3 = Program.Pow(2, 3);
+            double result3 = Program.Pow(2, 3);
             Assert.AreEqual(8, result3);
 
-            int result4 = Program.Pow(6, 2);
+            double result4 = Program.Pow(6, 2);
             Assert.AreEqual(36, result4);
         }
         public void TestAbs()
@@ -71,16 +71,22 @@ namespace UnitTestProject1
             double result3 = Program.Ceil(3.5);
             Assert.AreEqual(4, result3);
 
-            double result4 = Program.Ceil(4.1);
-            Assert.AreEqual(5, result4);
+            double result4 = Program.Ceil(4);
+            Assert.AreEqual(4, result4);
+
+            double result1 = Program.Ceil(-3.2);
+            Assert.AreEqual(-3, result1);
         }
         public void TestFloor()
         {
             double result3 = Program.Floor(3.5);
             Assert.AreEqual(3, result3);
 
-            double result4 = Program.Floor(4.1);
+            double result4 = Program.Floor(4);
             Assert.AreEqual(4, result4);
+
+            double result1 = Program.Floor(-3.2);
+            Assert.AreEqual(-4, result1);
         }
         public void TestFactorial()
         {
