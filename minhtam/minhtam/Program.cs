@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace minhtam
+namespace minhtam4a
 {
     public class Program
     {

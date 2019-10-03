@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using minhtam;
+using minhtam4a;
 
 namespace UnitTestProject1
 {

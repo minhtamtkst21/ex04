@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{814D3F65-4B51-46A6-87E5-BB2DFB98368F}</ProjectGuid>
+    <ProjectGuid>{67D2CCCB-3EBC-41C0-A398-E6A8DC1D2C85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProject1</RootNamespace>
-    <AssemblyName>UnitTestProject1</AssemblyName>
+    <RootNamespace>UnitTestProject2</RootNamespace>
+    <AssemblyName>UnitTestProject2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\minhtam\minhtam4a.csproj">
-      <Project>{a468967e-ac09-47e7-a2b4-439aa2064921}</Project>
-      <Name>minhtam4a</Name>
+    <ProjectReference Include="..\minhtam4b\minhtam4b.csproj">
+      <Project>{df8d409a-a3ba-4a84-9498-4ca763eaab6b}</Project>
+      <Name>minhtam4b</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
