@@ -30,11 +30,11 @@ namespace minhtam4b
             Console.WriteLine();
             h(4,'w');
             Console.WriteLine();
-            //i(4,'a');
+            i(5,'a');
             Console.WriteLine();
-            //j(4,'x');
+            //j(5,'x');
             Console.WriteLine();
-            //k(4,'+');
+            //k(5,'+');
         }
         public static void InputValues(int[] iArr)
         {
@@ -181,10 +181,6 @@ namespace minhtam4b
                 Console.WriteLine();
             }
         }
-        //1:0s,1c,5s,1c 2*2+1 
-        //2:1s,1c,3s,1c 1*2+1 
-        //3:2s,1c,1s,1c 0*2+1 
-        //4:3s,1c
         static void e(int n, char c)
         {
             for (int i=1 ;i<=n;i++)
